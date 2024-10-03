@@ -1,44 +1,74 @@
 
 body {
     font-family: 'open sans', sans-serif;
-    color: darkblue;
-    margin: 10px 50px 10px 50px;
+    color: black;
+    margin: 40px 320px 200px 250px;
     background-color: ivory;
-    
+    background-image: url("https://courses.ics.hawaii.edu/ics314f24/morea/ui-basics/page.gif");
+    background-repeat: no-repeat;
+    width: 475px;
+    line-height: 175%;
 }
 
 #navbar ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
+    line-height: 350%;
+    font-size: 30px;
+    font-weight: bold;
 }
+
 #navbar li {
-    display: inline;
+    display: block;
 }
+
 #navbar a {
     margin-left: 75px;
     margin-right: 75px;
-
 }
-h1, h2{
+
+h1, h2 {
     font-family: 'oswald', sans-serif;
 }
+
 img {
-    float: left;
-    margin-right: 10px;
+    float: center;
+    margin: 0px 0px 10px 150px;
 }
-.left{
+
+.left {
     float: left;
     width: 300px;
     padding: 1em;
 }
-.right{
+
+.right {
     float: right;
     width: 300px;
     padding: 1em;
 }
-.center{
-    margin-left: 300px;
-    margin-right: 300px;
+
+.center {
+    h1.fancy {
+        font-family: Edwardian Script ITC; 
+        font-size: 50pt; 
+        text-align: center;
+        line-height: 135%;
+    }
+
+    h2.chapter {
+        font-size: 30pt;
+        text-align: center;
+    }
+
+    a.left {
+        float: left;
+        font-weight: bold;
+    }
+
+    a.right {
+        float: right;
+        font-weight: bold;
+    } margin-right: 300px;
     padding: 1em;
 }
